@@ -1,13 +1,10 @@
 name: update
-
 on:
   schedule:
     - cron: "0 6 * * *" # ежедневно 9:00 МСК
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -31,5 +28,3 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -am "helium: update to $ver"
           git push
-
-# регистрация воркфлоу форсится изменением файла

@@ -1,13 +1,13 @@
 {
-  "version": "0.14.8.2",
+  "version": "0.14.9.1",
   "systems": {
     "x86_64-linux": {
       "target": "x86_64",
-      "hash": "sha256-7Kde6Crsr6LdKnfER+6yE7JkU6+10xXtJ1GQEHhBtqg="
+      "hash": "sha256-cuQiMGhOPjE7ixuZiFGpRuGF9SdVcNPYUXSXhjZBLKQ="
     },
     "aarch64-linux": {
       "target": "arm64",
-      "hash": "sha256-DlO1kAQcltjH8K5sTdDb9aMXD5MMRgWuWvas04sjQh0="
+      "hash": "sha256-vK5WcsRCDFnW/AzNEMefnJmhvyP5ou1rrtZhgBiwVdQ="
     }
   }
 }
